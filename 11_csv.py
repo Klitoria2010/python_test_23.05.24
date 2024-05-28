@@ -16,3 +16,5 @@ l_conect = [
 df1 = pd.DataFrame(l_conect)
 print(df1)
 print(type(df1))
+
+df1.to_csv("file_test_csv")
